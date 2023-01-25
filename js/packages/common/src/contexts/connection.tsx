@@ -48,12 +48,12 @@ export type ENV =
 export const ENDPOINTS: { name: ENV; endpoint: string; ChainId: ChainId }[] = [
   {
     name: 'mainnet-beta (Triton)',
-    endpoint: 'https://holaplex-main-9e4a.mainnet.rpcpool.com',
+    endpoint: 'https://solana-mainnet.g.alchemy.com/v2/EvkMMnD-PEuBJy0xDcPZixDfQWyOWWCx',
     ChainId: ChainId.MainnetBeta,
   },
   {
     name: 'mainnet-beta (Serum)',
-    endpoint: 'https://solana-api.projectserum.com/',
+    endpoint: 'https://solana-mainnet.g.alchemy.com/v2/EvkMMnD-PEuBJy0xDcPZixDfQWyOWWCx',
     ChainId: ChainId.MainnetBeta,
   },
   {
